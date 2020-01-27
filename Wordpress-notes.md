@@ -62,3 +62,5 @@ add_action('init', 'create_custom_post_type');
 ```php
 <?php /* Template name: Portfolio Items Below Content */
 ```
+
+--
