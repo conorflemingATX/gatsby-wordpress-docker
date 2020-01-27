@@ -72,3 +72,5 @@ yarn-error.log
 
 # Database folder
 db/
+
+nitco-private
