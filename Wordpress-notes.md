@@ -27,6 +27,9 @@ function create_custom_post_type(){
 
   // Add fields and types to the post type.
   add_post_type_support('portfolio', array('thumbnail', 'excerpt'));
+  // thumbnail and except should be enough for most without getting into acf.
+  // The only other one I really have to worry about is possibly putting 'hierarchical => true' and then enabling page-attributes.
+  // but that really is for pages.
 }
 
 // Add custom post type to init hook in WP
